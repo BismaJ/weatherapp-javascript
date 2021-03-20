@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/weather.css" rel="stylesheet">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="icon-container">
+                <img id="logo" src="media\logo.jpg" />
+            </div>
+          </div>
+          <div class="content">
+            <div class="general-information">
+              <div class="status" data-status>Enter a City</div>
+            </div>
+        </div>
+
+            <div id="placeholder" class="city-container">
+                <input placeholder="City/Zip" class="city-search" id="search">
+                <div class="custom-select">
+
+                </div>
+                <select id="units">
+                    <option value="f">Fahrenheit</option>
+                    <option value="m">Celcuis</option>
+                </select>
+                <button id="btnget" onclick="getweather()">Get weather</button><br>
+            </div>
+            <div id="temp-details">
+                <img id="image" style="border-radius: 5px;"/>
+                <div id="output"></div>
+            </div>
+
+        
+
+    </div>
+</body>
+<script src="js/weather.js"></script>
+</html>
