@@ -9,10 +9,10 @@
 </head>
 <body>
     <div class="container">
+        <div class="icon-container">
+            <img id="logo" src="media\logo.jpg" />
+        </div>
         <div class="header">
-            <div class="icon-container">
-                <img id="logo" src="media\logo.jpg" />
-            </div>
           </div>
           <div class="content">
             <div class="general-information">
@@ -31,14 +31,18 @@
                 </select>
                 <button id="btnget" onclick="getweather()">Get weather</button><br>
             </div>
+            <div id="standard-weather">
+                <h4>Karachi Temperature: </h4>
+            </div>
             <div id="temp-details">
                 <img id="image" style="border-radius: 5px;"/>
                 <div id="output"></div>
-            </div>
+                </div>
 
         
 
     </div>
 </body>
 <script src="js/weather.js"></script>
+<script src="js/config.js"></script>
 </html>
