@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to right, rgb(27, 149, 165), rgb(8, 245, 186));
+    background: linear-gradient(to right, rgb(151, 200, 36), rgb(8, 245, 186));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,6 +7,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
   }
   .container {
     max-width: 90%;
@@ -14,7 +15,7 @@ body {
     background-color: white;
     box-shadow: 0 5px 10px black;
     border-radius: 5px;
-    margin-top: -100px;
+    margin-top: 10px;
   }
   
   .content {
@@ -26,8 +27,8 @@ body {
   }
   
   .header {
-    background-color: rgba(46, 47, 29, 0.781);
-    height: 140px;
+    background-color: rgba(10, 149, 126, 0.781);
+    height: 130px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -37,17 +38,21 @@ body {
 
   .icon-container {
     position: relative;
-    top: 15px;
+    /* top: -280px; */
     padding: 20px;
     background-color: white;
-    width: 300px;
-    height: 60px;
-    border-radius: 30px;
+    width: 200px;
+    height: 30px;
+    border-radius: 60px;
+    padding-bottom: 10px;
   }
   #logo {
-      width: 300px;
-      height: 80px;
-  }
+      width: 150px;
+      height: 50px;
+      margin-top: -15px;
+      padding-left: 10px;
+
+    }
   
 
   .general-information {
@@ -109,11 +114,13 @@ body {
       display: flex;
       font-size: 1rem;
       align-items: center;
+      justify-content: center;
+
   }
   #image {
-      margin-left: 310px;
       width: 150px;
       padding: 15px;
+      margin-left: 300px;
   }
   #temp-details {
       display: flex;
@@ -124,3 +131,7 @@ body {
       padding-right: 25px;
   }
   
+  h4{
+    color: #1e5f79;
+    margin-left: 300px;
+  }
